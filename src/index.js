@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 <<<<<<< HEAD
-import App from './App';
+import App from './M03App';
 =======
 import App from './M03App';
 import reportWebVitals from './reportWebVitals';
