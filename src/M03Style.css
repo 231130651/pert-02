@@ -35,3 +35,8 @@ button {
 button:hover {
     background-color: #ff4500;
 }
+
+.Completed {
+    text-decoration: line-through;
+    color: gray;
+}

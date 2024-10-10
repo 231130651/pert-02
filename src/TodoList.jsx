@@ -5,6 +5,7 @@ const TodoList = (props) => {
     <ul>
       {props.todos.map((todo, index) => (
         <li key={index}>
+          <input type="checkbox"/>
           {todo}
           <button onClick={() => props.removeTodo(index)}>Hapus</button>
         </li>
