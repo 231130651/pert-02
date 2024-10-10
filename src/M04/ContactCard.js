@@ -1,6 +1,6 @@
  import React from 'react'
  
- const ContactCard = (props) {
+ const ContactCard = (props) => {
    return (
      <div className='contact'>
        <h3>{props.nama}</h3>
