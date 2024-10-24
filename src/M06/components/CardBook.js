@@ -5,9 +5,6 @@ import { limitDescription, limitTitle } from "../utils/text"
 const CardBook = (props) => {
   return (
     <div className={styles.cardBook}>
-        <div style={buttonStyle}></div>
-        <button style={{color: 'white', background: isKlik ? 'grey' : 'green'}}>
-            {isKlik ? 'Loading' : 'Submit'}</button>
       <div className={styles.imgContainer}>
         <img className={styles.imgBook} alt="Buku" src={props.gambar} />
       </div>
