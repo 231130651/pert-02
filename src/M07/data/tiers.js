@@ -39,5 +39,3 @@ export const tiers= [
         buttonVariant: "outlined",
     },
 ]
-
-export default tiers
