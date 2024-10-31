@@ -1,4 +1,7 @@
 import React from 'react'
+import { Container, Grid, Link, Typography } from "@mui/material";
+import { Copyright } from "../utils/copyright";
+import { footers } from "../data/footers";
 
 export function Footer() {
   return (
@@ -33,3 +36,4 @@ export function Footer() {
         </Container>
     );
 }
+export default Footer
