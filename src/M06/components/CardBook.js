@@ -4,7 +4,7 @@ import { limitDescription, limitTitle } from "../utils/text"
 
 const CardBook = (props) => {
   return (
-    <div className={styles.cardBook}>
+    <div className={styles.cardBook}>sssssssss
       <div className={styles.imgContainer}>
         <img className={styles.imgBook} alt="Buku" src={props.gambar} />
       </div>

@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 
 import './index2.css';
-import M06App from './M06/M06App';
+import M07App from './M07/M07App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<M06App />);
+root.render(<M07App />);

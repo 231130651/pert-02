@@ -1,10 +1,8 @@
-import React from 'react';
-import Home from "./components/pages/Home"
-import "./M06/styles/m06.module.css"
-import { M06App } from './M06/M06App'
+import M07App from './M07/M07App'
 
-const App = () => {
-  return <M06App />;
+
+function App() {
+  return <M07App />;
 };
 
 export default App;
